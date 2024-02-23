@@ -1,3 +1,4 @@
+import React from 'react';
 import { code, db, globe, lock } from "../Assets/icons/index";
 import client1 from '../assets/images/client1.png'
 import client2 from '../assets/images/client2.png'
