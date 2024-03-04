@@ -1,9 +1,9 @@
 import React from 'react';
 import { code, db, globe, lock } from "../Assets/icons/index";
-import client1 from '../assets/images/client1.png'
-import client2 from '../assets/images/client2.png'
-import client3 from '../assets/images/client3.png'
-import client4 from '../assets/images/client4.png'
+import client1 from '../Assets/images/client1.png'
+import client2 from '../Assets/images/client2.png'
+import client3 from '../Assets/images/client3.png'
+import client4 from '../Assets/images/client4.png'
 
 export const aboutgrids = [
     {
