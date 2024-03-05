@@ -21,7 +21,7 @@ const Hero = () => {
         </Reveal>
       </div>
       <Reveal>
-        <div className=" flex justify-center items-center w-1/2 px-5 py-20 object-cover"> <img src={heroimg} alt="animated workers" width={500} height={500} />
+        <div className=" flex justify-center items-center w-full px-5 py-20 object-cover"> <img src={heroimg} alt="animated workers" width={800} height={800} />
         </div>
       </Reveal>
     </section>

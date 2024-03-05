@@ -31,15 +31,15 @@ const Header = () => {
         </ul>
       </div>
 
-      <div className=" flex lg:hidden flex-col">
+      <div className=" flex lg:hidden flex-col  ">
         {iconToggle ? (
-          <img src={close} alt="closed icon" width={40} height={40} onClick={() => { toggleMenu(); toggleIcon(); }} />
+          <img src={close} alt="closed icon" width={40} height={40}  onClick={() => { toggleMenu(); toggleIcon(); }} />
         ) : (
-          <img src={menu} alt="open icon" width={40} height={40} onClick={() => { toggleMenu(); toggleIcon(); }} />
+          <img src={menu} alt="open icon" width={40} height={40}  onClick={() => { toggleMenu(); toggleIcon(); }} />
         )}
 
         {toggle && (
-          <div id="mob-menu" className={` bg-lime-500 text-black py-4 absolute  top-20 right-0 w-full ${menuClass}`}>
+          <div id="mob-menu" className={` bg-lime-500 text-black py-4 absolute  top-20 right-0  w-full ${menuClass}`}>
             <ul className="flex justify-center items-center gap-2">
               <li className=" text-xl text-black font-semibold cursor-pointer hover:bg-lime-500 hover:text-white w-full py-3 text-center">Home</li>
               <li className=" text-xl text-black font-semibold cursor-pointer hover:bg-lime-500 hover:text-white w-full py-3 text-center">Services</li>

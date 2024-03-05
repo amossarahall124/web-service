@@ -1,6 +1,7 @@
 import React from 'react'
 import { call, fb, map, sms, twitter, yt, insta } from "../Assets/icons"
 import cube from "../Assets/images/cube.png"
+import hero from "../Assets/images/hero.png";
 import { Reveal } from '../Exports/Reveal';
 
 const Contacts = () => {
@@ -52,6 +53,10 @@ const Contacts = () => {
           </Reveal>
           </div>
         </div>
+        <Reveal>
+        <div className=" flex justify-center items-center w-full -mt-20 object-cover"> <img src={hero} alt="animated workers" width={500} height={500} />
+        </div>
+      </Reveal>
       </section>
       <img src={cube} alt="backgound" className="w-full h-72 absolute top[3550px] hidden xl-block" />
     </>
